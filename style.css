@@ -19,5 +19,4 @@ div:nth-child(even){
 }
 .four~div{
 	text-transform: lowercase;
-
 }
