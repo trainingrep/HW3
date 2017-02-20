@@ -1,0 +1,23 @@
+body{
+	font-size: 20px;
+	background: rgba(100,100,100,0.3);
+	text-align: center;
+}
+*{
+	letter-spacing: 10px;
+    line-height: 3rem;	
+}
+div:nth-child(odd){
+    color: blue;  
+    font-size: 2em;	
+}
+div:nth-child(even){
+	color: red;	
+}
+.four,div:nth-child(-n+3){
+	text-transform: uppercase;
+}
+.four~div{
+	text-transform: lowercase;
+
+}
